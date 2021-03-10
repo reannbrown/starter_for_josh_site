@@ -1,0 +1,47 @@
+@media only screen and (max-width: 990px) {
+   .article-cent{
+       text-align:center;
+            }
+    
+   .article-cent img{ 
+       margin: auto;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    
+    .herobg h1{
+        float:none; /*remove the float- that pushed the text to the right*/
+        width:100%; 
+/*        make the text fill the whole width*/
+        text-align:center; 
+        letter-spacing: -10px;
+/*        center align the text*/
+    margin-top: 60%; /*    push the text down  using 60% of the widht of the browser- this will always adjust according to width of screen*/
+font-size: 5.1em; 
+/*        reduce the size of font*/
+        padding-bottom: 10%;
+        
+}
+}
+
+.herobg{
+    background-position: -100px center;
+}
+
+@media only screen and (max-width: 500px) {
+    
+  .particle {
+    text-align: center;
+    margin-right: 0px;  
+    }
+    
+    .about-text {
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 1.0em;
+    }
+    
+}
+
+
