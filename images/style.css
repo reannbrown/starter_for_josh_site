@@ -1,0 +1,156 @@
+/*   
+Theme Name: Josh's Wordpress Site
+Theme URI: http://joshwhitkin.com
+Description: A style-free theme to get you started on an HTML5-based Wordpress theme of your own.
+Author: Me
+Author URI: http://joshwhitkin.com
+Version: 1
+*/
+
+
+body {
+    font-size: 16px;
+    font-family: arial, sans-serif;
+}
+
+.navbar {
+    font-size: 0.875em;
+}
+
+a {
+    color: #a99c9c;
+}
+
+a:hover {
+    color: #ed7d1e;
+}
+
+.navbar-nav li a:hover {
+
+    background-color: transparent;
+}
+
+.navbar-brand {
+    font-size: 2.5em;
+    /*41px(the size of the font in photoshop)divided by 16 which equals 2.5em*/
+    font-weight: bolder;
+    letter-spacing: -3px;
+}
+
+
+.orange {
+    color: darkorange;
+
+}
+
+.navbar {
+    font-size: 0.875em;
+    margin-bottom: 0px;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.herobg {
+    background: url(images/header-bg.jpg);
+    background-size: cover;
+}
+
+.herobg h1 {
+    font-family: 'Raleway', sans-serif;
+    float: right;
+    color: #ffff;
+    width: 341px;
+    font-size: 7.1em;
+    letter-spacing: -10px;
+    font-weight: 800;
+    line-height: 75%;
+    margin-top: 140px;
+    text-align: right;
+    padding-bottom: 10%;
+}
+
+.aboutbg {
+    background-color: #d9dade;
+}
+
+
+.aboutbg h2 {
+    font-size: 2.4em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+}
+
+.particle {
+    text-align: right;
+    margin-right: 150px;
+    font-size: 1.5em;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 0px;
+    padding-bottom: 40px;
+}
+
+.about-text {
+    font-family: 'Raleway', sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 1.8em;
+    line-height: 2em;
+}
+
+.blocker {
+    width: 140px;
+    height: 10px;
+    background-color: purple;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.articlebg {
+    background-color: #f5f5f5;
+
+}
+
+.article-title {
+    font-size: 2.0em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    color: #3c1f68;
+}
+
+h4 {
+    font-size: 1.6em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+
+}
+
+.date {
+    font-size: 0.8em;
+    letter-spacing: 1px;
+
+}
+
+.readmore {
+
+    color: #a19ba6;
+    font-size: 0.9em;
+    margin-bottom: 40px;
+    display: block;
+}
+
+footer {
+
+    background-image: url(images/footerbg.jpg);
+    background-size: cover;
+    width: 100%;
+    background-position: center center;
+}
+
+.footer-content {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+}
