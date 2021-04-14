@@ -36,7 +36,7 @@
 
                 <img class="img-responsive" alt=“portait” src="<?php the_field('articleimage'); ?>">
                 <h4><?php the_field('articletitle'); ?></h4>
-                <p><?php the_field('articleexcerpt'); ?> </p>
+                <p><?php the_field('articleexcerpt1'); ?> </p>
                 <a href="<?php the_field('readmore'); ?>" class="readmore">CONTINUE READING</a>
 
                 <!--placeholder for col 1 post id 102-->
@@ -45,14 +45,25 @@
 
 
             <div class="col-md-4 article-cent">
+                
+                <img class="img-responsive" alt=“amodel” src="<?php the_field('articleimage2'); ?>">
+                <h4><?php the_field('articletitle2'); ?></h4>
+                <p><?php the_field('articleexcerpt2'); ?> </p>
+                <a href="<?php the_field('readmore2'); ?>" class="readmore">CONTINUE READING</a>
 
                 <!--placeholder for col 1 post id 104-->
+                
 
 
             </div> <!-- col-->
 
 
             <div class="col-md-4 article-cent">
+                
+                <img class="img-responsive" alt=“gamesdesign” src="<?php the_field('articleimage3'); ?>">
+                <h4><?php the_field('articletitle3'); ?></h4>
+                <p><?php the_field('articleexcerpt3'); ?> </p>
+                <a href="<?php the_field('readmore3'); ?>" class="readmore">CONTINUE READING</a>
 
                 <!--placeholder for col 1 post id 106 -->
 
