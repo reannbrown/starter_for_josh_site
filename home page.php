@@ -60,7 +60,7 @@
 
             <div class="col-md-4 article-cent">
                 
-                <img class="img-responsive" alt=“gamesdesign” src="<?php the_field('articleimage3'); ?>">
+                <img class="img-responsive" alt=“aracetrack” src="<?php the_field('articleimage3'); ?>">
                 <h4><?php the_field('articletitle3'); ?></h4>
                 <p><?php the_field('articleexcerpt3'); ?> </p>
                 <a href="<?php the_field('readmore3'); ?>" class="readmore">CONTINUE READING</a>
