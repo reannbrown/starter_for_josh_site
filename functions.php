@@ -10,3 +10,9 @@ wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/js/bootstrap
 add_action( 'wp_enqueue_scripts', 'theme_add_bootstrap' );
 add_theme_support( 'post-thumbnails' );
 ?>
+
+<?php
+	if ( get_field(' headerbackgroundimage') ) {
+		echo 'style="background: url(' . get_field(' headerbackgroundimage') . ')"';
+	}
+?>
