@@ -5,15 +5,15 @@
     ?>
 
 <?php get_header(); /* Tells WordPress to include header.php */ ?>
-     <section class="container-fluid aboutbg text-center">
-        <div class="container">
-            
-        
-	<!--placeholder for aboutme -->
-            
-<h2><?php the_field('titleforaboutme'); ?></h2><!--  custom field for the aboutme content-->
-<p class="particle"><?php the_field('subtitleforaboutme'); ?></p>
-<p class="about-text"><?php the_field('paragraphforaboutme'); ?></p>
+<section class="container-fluid aboutbg text-center">
+    <div class="container">
+
+
+        <!--placeholder for aboutme -->
+
+        <h2><?php the_field('titleforaboutme'); ?></h2><!--  custom field for the aboutme content-->
+        <p class="particle"><?php the_field('subtitleforaboutme'); ?></p>
+        <p class="about-text"><?php the_field('paragraphforaboutme'); ?></p>
 
 
 
@@ -29,28 +29,33 @@
         <div class="row">
 
             <div>
-                <h3 class="text-center article-title"> LATEST ARTICLES </h3>
+                <h3 class="text-center article-title "><?php the_field('titleforarticles'); ?></h3>
             </div>
 
             <div class="col-md-4 article-cent">
 
-	<!--placeholder for col 1 post id 102-->                      
+                <img class="img-responsive" alt=“portait” src="<?php the_field('articleimage'); ?>">
+                <h4><?php the_field('articletitle'); ?></h4>
+                <p><?php the_field('articleexcerpt'); ?> </p>
+                <a href="<?php the_field('readmore'); ?>" class="readmore">CONTINUE READING</a>
+
+                <!--placeholder for col 1 post id 102-->
 
             </div> <!-- col-->
 
 
             <div class="col-md-4 article-cent">
 
-	<!--placeholder for col 1 post id 104-->                                 
-              
+                <!--placeholder for col 1 post id 104-->
+
 
             </div> <!-- col-->
 
 
             <div class="col-md-4 article-cent">
 
-	<!--placeholder for col 1 post id 106 -->
-            
+                <!--placeholder for col 1 post id 106 -->
+
             </div> <!-- col-->
 
 
